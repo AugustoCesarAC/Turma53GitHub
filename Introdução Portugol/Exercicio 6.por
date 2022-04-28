@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Matematica --> mat
+	inclua biblioteca Matematica --> mat
 	
 	funcao inicio()
 	{
@@ -15,9 +15,9 @@ programa
 		leia(x2)
 		escreva("Digite o Ponto y2: ")
 		leia(y2)
-		distancia = (mat.potencia(x2,2) - mat.potencia(x1,2)) + (mat.potencia(y2,2) - mat.potencia(y1,2))
+		distancia = (mat.potencia(x2-x1,2) + (mat.potencia(y2-y1,2)
 		distancia = mat.raiz(distancia, 2)
-		escreva(distancia)
+		escreva("\nA distância entre os pontos é: "distancia,"\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -25,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 352; 
+ * @POSICAO-CURSOR = 449; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
