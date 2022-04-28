@@ -3,15 +3,12 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro durInicial, durFinal, hora, minuto, segundo
+		inteiro duracao, hora, minuto, segundo
 		escreva("Digite o tempo de entrada em segundo: ")
-		leia(durInicial)
-		escreva("\nDigite o tempo de saída em segundo: ")
-		leia(durFinal)
-		durFinal = durFinal - durInicial
-		hora = durFinal/3600
-		minuto = (durFinal - (hora*3600))/60
-		segundo = (durFinal - (hora*3600) - (minuto*60))
+		leia(duracao)
+		hora = duracao/3600
+		minuto = (duracao - (hora*3600))/60
+		segundo = (duracao - (hora*3600) - (minuto*60))
 		escreva("Duração do evento foi de: ", hora, " hora(s), ", minuto, " minuto(s) e ", segundo, " segundo(s)\n")
 	}
 }
@@ -20,7 +17,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 498; 
+ * @POSICAO-CURSOR = 141; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
