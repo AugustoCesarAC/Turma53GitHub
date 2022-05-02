@@ -8,10 +8,10 @@ programa
 	
 		faca
 		{
-			enquanto(contador < 300)
+			enquanto(contador < 300)
 			{				
 				escreva(contador, "\n")
-				contador += 1
+				contador += 5
 			}
 			enquanto(contador < 400)
 			{
@@ -29,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 274; 
+ * @POSICAO-CURSOR = 108; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

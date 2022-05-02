@@ -1,7 +1,7 @@
 programa
 {
 	//inclua biblioteca Util --> util
-	inclua biblioteca Matematica --> mat
+	inclua biblioteca Matematica --> mat
 	
 	funcao inicio()
 	{
@@ -23,7 +23,6 @@ programa
 			mediaSalary += salary
 
 			se (salary <= 100) {salaryCem += 1}
-			se (salary <= 100) {escreva("\n",salary,"\n")}
 		}
 
 		escreva("Média do salário da população é: ", mat.arredondar(mediaSalary/20, 2))
@@ -37,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 400; 
+ * @POSICAO-CURSOR = 689; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
