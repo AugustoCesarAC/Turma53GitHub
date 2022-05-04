@@ -14,10 +14,6 @@ programa
 				leia(matrizSoma[linha][coluna])//matrizSoma[linha][coluna] = util.sorteia(1,9)
 				soma += matrizSoma[linha][coluna]
 			}
-		}
-
-		para(inteiro linha =0; linha < 3; linha++)
-		{
 			somaDiagonal += matrizSoma[linha][linha]
 		}
 		escreva("\nA soma dos valores é: ",soma, "\nA soma da Diagonal Principal é: ",somaDiagonal)
@@ -28,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 122; 
+ * @POSICAO-CURSOR = 455; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {matrizSoma, 7, 7, 10}-{soma, 7, 25, 4}-{somaDiagonal, 7, 37, 12};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
