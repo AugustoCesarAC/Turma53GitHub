@@ -6,31 +6,37 @@ public class Exercicio2
 {
 
 	public static void main(String[] args)
-	{
-		int[] vetor = new int[3];
-		int chave, i;
+	{		
+		int listLength;
+		int chave, troca, posicao;
 		Scanner input = new Scanner(System.in);
 		
-		for (int j = 0; j < 3; j++)
+		System.out.print("Digite o valor da lista: ");
+		listLength = input.nextInt();
+		
+		int[] vetor = new int[listLength];
+		
+		for (posicao = 0; posicao < vetor.length; posicao++)
 		{
 			System.out.print("Digite um valor: ");
-			vetor[j] = input.nextInt();
+			vetor[posicao] = input.nextInt();
+		}
+				
+		for (posicao = 0; posicao < vetor.length; posicao++)
+		{
+			chave = vetor[posicao];
+			troca = posicao - 1;
+			while (troca >= 0 && vetor[troca] > chave)
+			{
+				vetor[troca+1] = vetor[troca];
+				troca = troca-1;
+			}
+			vetor[troca+1] = chave;
 		}
 		
-		for (int j = 0; j < 3; j++)
+		for (posicao = 0; posicao < vetor.length; posicao++)
 		{
-			chave = vetor[j];
-			i = j - 1;
-			while (i >= 0 && vetor[i] > chave)
-			{
-				vetor[i+1] = vetor[i];
-				i = i-1;
-			}
-			vetor[i+1] = chave;
-		}
-		for (int j = 0; j < 3; j++)
-		{
-			System.out.println("A ordem da lista é: "+ vetor[j]);
+			System.out.println("A ordem da lista é: "+ vetor[posicao]);
 		}
 	}
 
