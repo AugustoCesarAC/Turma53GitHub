@@ -19,12 +19,12 @@ public class ExercicioExtra
 		{
 		System.out.print("Digite valores entre 1 à 9\n");
 		System.out.print("\nDigite o primeiro número para o bichinho saber aonde precisa ir: ");
-		a = input.nextInt();
+		a = input.nextInt()-1;
 		System.out.print("Digite o segundo número para o bichinho saber aonde precisa a ir: ");
-		b = input.nextInt();		
+		b = input.nextInt()-1;		
 		
 		if(a<0 || a>8 || b<0 || b>8)
-			System.out.println("\nNumero fora do limite, favor digitar número de 0 à 8\n");
+			System.out.println("\nNumero fora do limite, favor digitar número de 1 à 9\n");
 		
 		}while(a<0 || a>8 || b<0 || b>8);
 		
