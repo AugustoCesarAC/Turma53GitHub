@@ -6,28 +6,29 @@ public class RPG
 
 	public static void main(String[] args)
 	{
-		ModeloRPG char1 = new ModeloRPG();
-		ModeloRPG char2 = new ModeloRPG();
-		ModeloRPG char3 = new ModeloRPG();
+		StatusRPG statsP = new StatusRPG();
+		BattleRPG paladino = new BattleRPG(statsP.forca);
+		PlayerNpcRPG player1 = new PlayerNpcRPG();
+			
+		System.out.println(paladino.d20);
+		
+		int i = 1;
 		
 		
-		char1.nomeChar();
-		char1.altFor();
-		System.out.println("");
-		char1.status();
+		if(i == 1) 
+		{
+			player1.paladino();
+			player1.statsPlayer();
+		}
+		else
+		{
+			player1.ladino();
+			player1.statsPlayer();
+		}
 		
 		
-		System.out.println("");
-		
-		char2.nomeChar();
-		char2.status();
-		
-		System.out.println("");
-		
-		char3.nomeChar();
-		char3.status();
-	
-		
+		statsP.nomeChar();
+		statsP.status();
 	}
 
 }
