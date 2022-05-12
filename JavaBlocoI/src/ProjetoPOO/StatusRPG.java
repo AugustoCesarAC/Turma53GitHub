@@ -1,4 +1,4 @@
-package ExercicioOrientacaoObjeto;
+package ProjetoPOO;
 
 import java.util.Scanner;
 
@@ -16,7 +16,6 @@ public class StatusRPG
 	int intel;
 	int sor;
 	int vigor;
-	int souls;
 	int cont;
 	
 	
@@ -29,7 +28,6 @@ public class StatusRPG
 		this.intel = 1;
 		this.sor = 1;
 		this.vigor = 1;
-		this.souls = 0;
 	}
 	
 	//METODO

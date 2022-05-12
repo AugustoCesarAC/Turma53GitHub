@@ -14,6 +14,7 @@ public class Cliente
 		client1.nome = "Augusto";
 		client1.sobreNome = "Cesar";
 		client1.idade = 25;
+		
 		client1.status();
 		client1.objeto();
 		client1.debito();

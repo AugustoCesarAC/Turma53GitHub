@@ -1,4 +1,4 @@
-package ExercicioOrientacaoObjeto;
+package ProjetoPOO;
 
 public class PlayerNpcRPG
 {

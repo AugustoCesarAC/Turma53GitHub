@@ -1,4 +1,4 @@
-package ExercicioOrientacaoObjeto;
+package ProjetoPOO;
 
 import java.util.Random;
 
@@ -33,5 +33,6 @@ public class BattleRPG
 			this.atk = this.atk + stats.sor*2;
 		this.hp -= this.atk;
 	}
+	
 	
 }
