@@ -55,6 +55,12 @@ public class StatusRPG
 			this.cont++;
 			this.lvl += x;
 		}
+		else
+		{
+			System.out.println("Então cê ta de sacanagem, né?");
+			x = 0;
+			this.cont++;
+		}
 		}while(cont == 0);
 		return x;
 	}

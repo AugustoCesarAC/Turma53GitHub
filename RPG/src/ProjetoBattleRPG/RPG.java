@@ -13,7 +13,7 @@ public class RPG
 		System.out.println("Valor do dado é: "+paladino.d20);
 		
 		
-		int i = 1;
+		int i = 2;
 		
 		
 		if(i == 1) 
@@ -24,13 +24,11 @@ public class RPG
 		else
 		{
 			player1.ladino();
-			player1.status();;
+			player1.status();
 		}
 		System.out.println("");
 		
 		player1.altFor();
-		
-		player1.status();
 		
 	}
 

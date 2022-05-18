@@ -4,10 +4,10 @@ public class ModeloCaneta
 {
 
 	//CARACTERISTICAS -> ATRIBUTOS
-	String cor;
-	double ponta;
-	int carga;
-	boolean tampada;
+	private String cor;
+	private double ponta;
+	private int carga;
+	private boolean tampada;
 	
 	//MÉTODO CONSTRUTOR
 	
@@ -46,6 +46,39 @@ public class ModeloCaneta
 		System.out.println("A carga esta em: "+this.carga+"%");
 		System.out.println("Esta tampada? "+this.tampada);
 	}
+
+	//METODOS ACESSORES(gets) e MODIFICADORES(sets)
+	public String getCor()
+	{
+		return cor;
+	}
+
+	public void setCor(String cor)
+	{
+		this.cor = cor;
+	}
+
+	public double getPonta()
+	{
+		return ponta;
+	}
+
+	public void setPonta(double ponta)
+	{
+		this.ponta = ponta;
+	}
+
+	public int getCarga()
+	{
+		return carga;
+	}
+
+	public void setCarga(int carga)
+	{
+		this.carga = carga;
+	}
+	
+	
 	
 	
 }
