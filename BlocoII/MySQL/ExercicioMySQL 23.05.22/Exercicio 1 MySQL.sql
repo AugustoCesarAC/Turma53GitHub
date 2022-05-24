@@ -7,7 +7,7 @@ nomeColaborador varchar(255),
 CPFColaborador mediumint(11),
 funcaoColaborador varchar(255),
 salarioColaborador mediumint(10),
-numColaborador mediumint(4),
+numColaborador mediumint(1) default 1,
 primary key (idColaborador)
 )auto_increment=1;
 
